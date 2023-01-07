@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+/* common css */
+h4 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+}
+p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+}
+button {
+  background-color: white;
+  color: #ee5113;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 23px;
+}
+/* header css */
+header {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../images/banner/banner2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 2rem;
+}
+header h1 {
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 76px;
+  letter-spacing: 0em;
+  text-align: right;
+}
+header p {
+  text-align: right;
+}
+header button {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffffff;
+  background: #f15b22;
+  border-radius: 5px;
+  padding: 21px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+/* failure css */
+.failure {
+  width: 900px;
+  margin: 5rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.failure .failure-left {
+  width: 45%;
+}
+.failure .failure-left img {
+  width: 100%;
+}
+.failure .failure-right {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2rem;
+}
+.failure .failure-right ul li {
+  list-style: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+}
+.failure .failure-right li i {
+  margin-right: 1rem;
+  color: green;
+}
+/* plan css */
+.plan {
+  width: 900px;
+  margin: 2rem auto;
+  text-align: center;
+}
+.plan h4 {
+  margin-bottom: 3rem;
+}
+.plan .plan-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.plan .plan-box .plan-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.plan .plan-box .plan-item b {
+  font-size: 20px;
+}
+/* midset css */
+.mindset {
+  width: 900px;
+  margin: 4rem auto;
+  background-image: linear-gradient(to right, #f46c37, transparent),
+    url("../images/watch.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+}
+.mindset h4 {
+  color: white;
+  margin-bottom: 1rem;
+}
+/* footer css */
+footer {
+  background-color: black;
+  color: white;
+  padding: 5rem 8rem;
+  display: flex;
+  justify-content: space-between;
+}
+footer .future {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem;
+}
+footer .future p {
+  color: white;
+}
+footer .icon i {
+  font-size: 30px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+footer .subscribe {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.subscribe h5 {
+  font-size: 20px;
+}
+.subscribe input {
+  padding: 15px 10px;
+  background-color: transparent;
+  color: white;
+  outline: none;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.subscribe input::placeholder {
+  color: white;
+}
